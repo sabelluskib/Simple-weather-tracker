@@ -15,4 +15,4 @@ The script receives JSON output from the wttr.in website, then parses through jq
 
 ### Example
 
-https://biend.fun
+http://biend.fun
