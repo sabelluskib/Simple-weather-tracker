@@ -12,7 +12,9 @@ The script receives JSON output from the wttr.in website, then parses through jq
 1. sudo apt-get install curl cron jq nginx
 2. sudo chmod u+x script.sh
 3. Set the necessary rule in crontab. For example:
-   `* * * * * bash <sript_path> <name_of_city> > /var/www/html/index.nginx-debian.html`
+   ```
+   * * * * * bash <sript_path> <name_of_city> > /var/www/html/index.nginx-debian.html
+   ```
 
 ### Example
 
